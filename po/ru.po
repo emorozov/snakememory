@@ -1,0 +1,267 @@
+# Russian translation of snakememory.
+# Copyright (C) 2004 Eugene Morozov
+# This file is distributed under the same license as the snakememory package.
+# Eugene Morozov <eugene@renice.org>, 2004.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: snakememory 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-11-27 12:59+0300\n"
+"PO-Revision-Date: 2004-11-27 13:05+0300\n"
+"Last-Translator: Eugene Morozov <eugene@renice.org>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: snakememory.py:245
+msgid "Unsupported type for the start_date property"
+msgstr "Неверный тип свойства start_date"
+
+#: snakememory.py:260
+msgid "Unsupported type for the creation_date property"
+msgstr "Неверный тип свойства creation_date"
+
+#: snakememory.py:278
+msgid "Unsupported type for the efficiency property"
+msgstr "Неверный тип свойства efficiency"
+
+#: snakememory.py:295 snakememory.py:299
+msgid "Unsupported type for the repeat property"
+msgstr "Неверный тип свойства repeat"
+
+#: snakememory.py:355
+msgid "root tag must me <snakememory>"
+msgstr "Корневым тегом должен быть <snakememory>"
+
+#: snakememory.py:382
+#, python-format
+msgid "Unknown tag: %s"
+msgstr "Неизвестный тег: %s"
+
+#: snakememory.py:396
+msgid "Invalid tag nesting order"
+msgstr "Неверный порядок вложенности тегов"
+
+#: snakememory.py:856
+msgid "There're no more items to learn today"
+msgstr "На сегодня не осталось неповторенного материала"
+
+#: snakememory.py:888
+msgid "Play answer"
+msgstr "Проиграть ответ"
+
+#: snakememory.py:993
+msgid "bright"
+msgstr "очень хорошо"
+
+#: snakememory.py:994
+msgid "good"
+msgstr "хорошо"
+
+#: snakememory.py:995
+msgid "pass"
+msgstr "нормально"
+
+#: snakememory.py:996
+msgid "fail"
+msgstr "неверно"
+
+#: snakememory.py:997
+msgid "bad"
+msgstr "плохо"
+
+#: snakememory.py:998
+msgid "null"
+msgstr "никак"
+
+#: snakememory.py:1078
+msgid "Top"
+msgstr "Верхний уровень"
+
+#: snakememory.py:1095
+msgid "Open..."
+msgstr "Открыть..."
+
+#: snakememory.py:1105
+msgid "All files"
+msgstr "Все файлы"
+
+#: snakememory.py:1121 snakememory.py:1137
+msgid "Audio"
+msgstr "Аудио"
+
+#: snakememory.py:1152 snakememory.py:1165
+msgid "Video"
+msgstr "Видео"
+
+#: snakememory.py:1360 recall_item.glade:132
+msgid "Question"
+msgstr "Вопрос"
+
+#: snakememory.py:1362
+msgid "Answer"
+msgstr "Ответ"
+
+#: draw_answer_window.glade:7
+msgid "Draw Answer"
+msgstr "Нарисовать ответ"
+
+#: draw_answer_window.glade:67
+msgid "Clear"
+msgstr "Очистить"
+
+#: draw_answer_window.glade:146 preferences.glade:216
+msgid "Close"
+msgstr "Закрыть"
+
+#: edit_item.glade:11
+msgid "Edit Item"
+msgstr "Редактировать карточку"
+
+#: edit_item.glade:115
+msgid "Created on"
+msgstr "Создана"
+
+#: edit_item.glade:139
+msgid "Scheduled for"
+msgstr "Следующее повторение"
+
+#: edit_item.glade:163 edit_item.glade:187
+msgid "2004-11-08"
+msgstr "2004-11-08"
+
+#: edit_item.glade:219 edit_item.glade:261 new_item.glade:266
+#: new_item.glade:321
+msgid "Set audio"
+msgstr "Использовать аудио"
+
+#: edit_item.glade:232 edit_item.glade:274 new_item.glade:279
+#: new_item.glade:334
+msgid "Set video"
+msgstr "Использовать видео"
+
+#: edit_item.glade:301 new_item.glade:145
+msgid "_Question"
+msgstr "_Вопрос"
+
+#: edit_item.glade:339 new_item.glade:183
+msgid "_Answer"
+msgstr "Отв_ет"
+
+#: edit_item.glade:439 new_item.glade:430
+msgid "_Cancel"
+msgstr "О_тменить"
+
+#: edit_item.glade:510 new_item.glade:501
+msgid "_OK"
+msgstr "_OK"
+
+#: new_item.glade:11
+msgid "Add Card"
+msgstr "Добавить карточку"
+
+#: new_item.glade:115
+msgid "Parent"
+msgstr "Родитель"
+
+#: new_item.glade:221
+msgid "Top-level"
+msgstr "Верхний уровень"
+
+#: preferences.glade:8
+msgid "Snakememory Preferences"
+msgstr "Настройки Snakememory"
+
+#: preferences.glade:87
+msgid "Choose question font"
+msgstr "Выберите шрифт для вопросов"
+
+#: preferences.glade:111
+msgid "Choose answer font"
+msgstr "Выберите шрифт для ответов"
+
+#: recall_item.glade:9
+msgid "Recall Item"
+msgstr "Повторение записи"
+
+#: recall_item.glade:39
+msgid ""
+"You may use Alt+5-Alt+0 keys for indicating quality (from bright to null)"
+msgstr ""
+"Используйте клавиши Alt+5-Alt+0 для выбора качества (от высшего до никакого)"
+
+#: recall_item.glade:41
+msgid "_Evaluate answer"
+msgstr "Оценить ответ"
+
+#: recall_item.glade:61
+msgid "_View answer"
+msgstr "_Показать ответ"
+
+#: recall_item.glade:162
+msgid "question"
+msgstr "вопрос"
+
+#: recall_item.glade:199
+msgid "Play"
+msgstr "Проиграть"
+
+#: recall_item.glade:259
+msgid "Enter answer"
+msgstr "Введите ответ"
+
+#: recall_item.glade:299
+msgid "or"
+msgstr "или"
+
+#: recall_item.glade:321
+msgid "Draw"
+msgstr "Нарисуйте"
+
+#: snakememory.glade:10
+msgid "Snakememory"
+msgstr "Snakememory"
+
+#: snakememory.glade:37
+msgid "_File"
+msgstr "_Файл"
+
+#: snakememory.glade:46
+msgid "_Quit"
+msgstr "_Выход"
+
+#: snakememory.glade:72
+msgid "_Edit"
+msgstr "_Правка"
+
+#: snakememory.glade:81
+msgid "Prefere_nces"
+msgstr "_Изменить настройки"
+
+#: snakememory.glade:187
+msgid "_Learn"
+msgstr "_Учить"
+
+#: snakememory.glade:259
+msgid "_Add"
+msgstr "_Добавить"
+
+#: snakememory.glade:331
+msgid "_Delete"
+msgstr "Уд_алить"
+
+#~ msgid "Add An Item"
+#~ msgstr "Добавить запись"
+
+#~ msgid ""
+#~ "5 - bright\n"
+#~ "4 - good\n"
+#~ "3 - pass\n"
+#~ "2 - fail\n"
+#~ "1 - bad\n"
+#~ "0 - null"
+#~ msgstr "5 - отлично4- хорошо3 - сойдет2 - слабо1- плохо0 - никак"

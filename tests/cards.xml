@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snakememory>
+    <preferences>
+        <property name='question_font'>Sans Bold 20</property>
+        <property name='answer_font'>Sans Bold 20</property>
+    </preferences>
+    <items>
+        <item>
+            <question>question 1</question>
+            <answer>answer 1</answer>
+            <property name='start_date'>2004-11-16</property>
+            <property name='scheduled_date'>2004-11-18</property>
+            <property name='creation_date'>1999-01-01</property>
+            <property name='efficiency'>1.0,1.1</property>
+            <item>
+                <question>child of question 1</question>
+                <answer>mama</answer>
+                <property name='start_date'>2004-11-12</property>
+                <property name='scheduled_date'>2004-11-21</property>
+                <property name='creation_date'>2004-11-16</property>
+                <property name='efficiency'>2.5,2.5</property>
+                <item>
+                     <question>друг</question>
+                     <answer>peng you</answer>
+                     <property name='start_date'>2004-11-16</property>
+                     <property name='scheduled_date'>2004-11-18</property>
+                     <property name='creation_date'>2004-11-16</property>
+                     <property name='efficiency'>2.5</property>
+                </item>
+            </item>
+        </item>
+        <item>
+            <question>question 2</question>
+            <answer>shangdian</answer>
+            <property name='start_date'>2004-11-12</property>
+            <property name='scheduled_date'>2004-11-21</property>
+            <property name='creation_date'>2004-11-16</property>
+            <property name='efficiency'>2.5,2.5</property>
+            <item>
+                <question>child of question 2</question>
+                <answer>shu</answer>
+                <property name='start_date'>2004-11-16</property>
+                <property name='scheduled_date'>2004-11-18</property>
+                <property name='creation_date'>2004-11-16</property>
+                <property name='efficiency'>2.5</property>
+                <item>
+                    <question>child of child of question 2</question>
+                    <answer>haizi</answer>
+                    <property name='start_date'>2004-11-16</property>
+                    <property name='scheduled_date'>2004-11-18</property>
+                    <property name='creation_date'>2004-11-07</property>
+                    <property name='efficiency'>2.5</property>
+                </item>
+            </item>
+        </item>
+    </items>
+</snakememory>
