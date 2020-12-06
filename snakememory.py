@@ -6,7 +6,7 @@
 #@@first
 #@@language python
 
-# Copyright (C) 2004 Eugene Morozov <eugene@renice.org>
+# Copyright (C) 2004 Eugene Morozov <jmv@emorozov.net>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
